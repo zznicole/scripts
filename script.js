@@ -51,11 +51,7 @@ and display how many hours and minutes left until tomorrow.
 let currentTime = prompt ('Please enter your current time in format HH:mm(HH is hour in a day from 00 to 23, mm are minutes in hour');
 let hours = currentTime.slice(0, currentTime.indexOf(':'));
 let minutes = currentTime.slice(currentTime.indexOf(':') + 1);
-//let integer = parseInt(hours, 10);
 let hoursTillTomorrow = 23 - hours;
 let minutesTillTomorrow = 60 - minutes;
 alert('It\'s ' + hoursTillTomorrow + ' hours' + minutesTillTomorrow + ' minutes left till tomorrow.');
 
-//'It\'s ' + timeTillTomorrow + ' left till tomorrow.'
-
-//console.log(`We have ${hours} hours and ${minutes} minutes`);
